@@ -28,7 +28,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <a class="navbar-brand js-scroll-trigger"
+      href="#page-top"><img class="card-img-top" src="img/sibaih/logo-thumb.png" alt="Home" /></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -36,7 +37,8 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Aims
+            & Objectives</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#events">Activities</a>
@@ -68,33 +70,65 @@
     </div>
   </header>
 
-  <!-- About Section -->
+
+
+  <!-- Aims Section -->
   <section id="about" class="about-section text-center">
     <div class="container">
+      <h2 class="text-white mb-4">Aims and Objectives</h2>
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Aims and Objectives</h2>
-          <p class="text-white-50 about-large">
-	    <ol class="text-white-50 text-left about-large">
-	      <li>Facilitate <strong>scientific exchange</strong> between Saudi
-		researchers in the field of Bioinformatics, to establish
-		new research <strong>collaborations</strong>, and to
-		raise awareness of the importance of
-		bioinformatics and Artificial Intelligence in the
-		future of medicine.</li>
-	      <li>Build expertise through <strong>training</strong> in Bioinformatics
-		and Artificial Intelligence.</li>
-	      <li>Initiate discussion about a scientific
+	<div class="col-lg-4 col-sm-6 mb-4">
+	  <div class="card h-100">
+            <img class="card-img-top" src="img/collaboration2-700.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+		Collaboration
+              </h4>
+              <p class="card-text">Facilitate <strong>scientific
+		  exchange</strong> between Saudi researchers in the
+		field of Bioinformatics, to establish new
+		research <strong>collaborations</strong>, and to raise
+		awareness of the importance of bioinformatics and
+		Artificial Intelligence in the future of medicine.</p>
+            </div>
+	  </div>
+	</div>
+	<div class="col-lg-4 col-sm-6 mb-4">
+	  <div class="card h-100">
+            <img class="card-img-top" src="img/education-700.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+		Training and outreach
+              </h4>
+              <p class="card-text">Build expertise through <strong>training</strong> in Bioinformatics
+		and Artificial Intelligence. We will organize
+		<strong>tutorials</strong>
+		and <strong>workshops</strong> to educate scientists
+		and students in the area of bioinformatics.</p>
+            </div>
+	  </div>
+	</div>
+	<div class="col-lg-4 col-sm-6 mb-4">
+	  <div class="card h-100">
+            <img class="card-img-top" src="img/cloud-700.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+		Developing infrastructure
+              </h4>
+              <p class="card-text">We will discuss the scientific
 		research <strong>infrastructure</strong> necessary to
 		have impact on national and international scale, in
 		particular through <strong>data sharing</strong>
 		platforms and <strong>standards</strong> that allow
-		the discovery and combination of datasets.</li>
-	    </ol>
-	  </p>
-        </div>
+		the discovery and combination of datasets.</p>
+            </div>
+	  </div>
+	</div>
       </div>
+      <!-- /.row -->
     </div>
+    <a href="#events" class="btn btn-primary
+			     js-scroll-trigger">Activities and Events</a>
   </section>
 
   <!-- Events Section -->
@@ -146,29 +180,31 @@
 	  </p>
           <h3 class="text-white mb-5">Past Events</h2>
           <p class="text-white-50">
-	    <ol class="text-white-50 text-left">
-	      
-	    </ol>
+	    <ul class="text-white-50 text-left">
+	      <li>None yet.</li>
+	    </ul>
 	  </p>
         </div>
       </div>
     </div>
+    <a href="#people" class="btn btn-primary
+			     js-scroll-trigger">People in SIBAIH</a>
   </section>
 
   <!-- People Grid -->
-  <section class="bg-light page-section" id="people">
+  <section class="bg-light page-section people-section" id="people">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">People</h2>
-	  <p>
+          <h2 class="section-heading text-uppercase text-white-50">People</h2>
+	  <p class="text-white-50">
 	    SIBAIH is <strong>open</strong> to any researcher with an
 	    interest in applying computational methods to life
 	    sciences and we encourage everybody to <a href="#signup">join
 	      us</a>. You can become involved in specific events or join
 	    the steering committee.
 	  </p>
-          <h3 class="section-heading text-uppercase">SIBAIH Steering Committee</h3>
+          <h3 class="section-heading text-uppercase text-white-50">SIBAIH Steering Committee</h3>
         </div>
       </div>
       <div class="row">
@@ -183,7 +219,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Adeel Chaudhary</h4>
-            <p class="text-muted">King Abdulaziz University</p>
+            <p class="affiliation">King Abdulaziz University</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -197,7 +233,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Ahmed Alfares</h4>
-            <p class="text-muted">KAIMRC</p>
+            <p class="affiliation">KAIMRC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -211,7 +247,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Majid Al Fadhel</h4>
-            <p class="text-muted">KAIMRC</p>
+            <p class="affiliation">KAIMRC</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -225,7 +261,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Takashi Gojobori</h4>
-            <p class="text-muted">KAUST</p>
+            <p class="affiliation">KAUST</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -239,7 +275,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Vladimir Bajic</h4>
-            <p class="text-muted">KAUST</p>
+            <p class="affiliation">KAUST</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -253,7 +289,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Adeeb Noor</h4>
-            <p class="text-muted">King Abdulaziz University</p>
+            <p class="affiliation">King Abdulaziz University</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -267,7 +303,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Adel Abuzenadah</h4>
-            <p class="text-muted">King Abdulaziz University</p>
+            <p class="affiliation">King Abdulaziz University</p>
           </div>
         </div>
 
@@ -282,7 +318,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Nouf Al Ghanimi</h4>
-            <p class="text-muted">King Abdulaziz University</p>
+            <p class="affiliation">King Abdulaziz University</p>
           </div>
         </div>
 
@@ -297,7 +333,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Ashraf Dallol</h4>
-            <p class="text-muted">King Abdulaziz University</p>
+            <p class="affiliation">King Abdulaziz University</p>
           </div>
         </div>
 	
@@ -312,12 +348,13 @@
           </a>
           <div class="portfolio-caption">
             <h4>Robert Hoehndorf</h4>
-            <p class="text-muted">KAUST</p>
+            <p class="affiliation">KAUST</p>
           </div>
         </div>
-	
       </div>
     </div>
+	<a href="#signup" class="btn btn-primary 
+	js-scroll-trigger">Join SIBAIH</a>
   </section>
 
   <!-- Signup Section -->
